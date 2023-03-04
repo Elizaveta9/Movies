@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewReview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:alpha="0.6"
+    app:cardUseCompatPadding="true"
+    tools:cardBackgroundColor="@android:color/holo_green_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:text="Автор" />
+
+        <TextView
+            android:id="@+id/textViewReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            tools:text="Слишком обобщенный сюжет. Сценаристы особо не затрудняются тем, что бы раскрыть, или хотя бы внятно обозначит интригу. Мама вдруг 'ни почему' пропала, и так же 'не за чем' появилась. Почему Бальтазар такой злой? Какие претензии к королю, который ему ну ни чем не мешает? Кот зачем нужен, если есть Дракон? Зачем шут нужен, в чем его мотивация действий? Всё не понятно и НЕ ОПРАВДАНО!!! А ведь именно в ЭТОМ и состоит профессионализм сценариста! А тут такая  'махровая ' сценарная самодеятельность, за которую я бы своим студентам больше тройки с минусом не поставила! Хорошему фильму нужен профессиональный сценарий, а не только профессиональный продюсер!!! Анна Лорак, любимейшая, замечательная певица и прекрасная женщина, но её голос совершенно не подходит главной героине! Вот зачем такую супер профессиональную звезду выставлять в таком позорном, с точки зрения профессионализма виде???\r\n\r\n" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

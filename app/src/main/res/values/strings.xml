@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="toast_no_internet">Не удалось загрузить данные</string>
+    <string name="favorite">Избранное</string>
+</resources>
